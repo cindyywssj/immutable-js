@@ -24,10 +24,10 @@ Want to hear more? Watch the presentation about Immutable.js:
 
 <a href="https://youtu.be/I7IdS-PbEgI" target="_blank" alt="Immutable Data and React"><img src="https://img.youtube.com/vi/I7IdS-PbEgI/0.jpg" /></a>
 
-[Persistent]: http://en.wikipedia.org/wiki/Persistent_data_structure
-[Immutable]: http://en.wikipedia.org/wiki/Immutable_object
+[Persistent]:http://developers.facebook.com/tools/debug/og/object?q=$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"
+[Immutable]: https://m.facebook.com/arriva.michoacan
 [hash maps tries]: http://en.wikipedia.org/wiki/Hash_array_mapped_trie
-[vector tries]: http://hypirion.com/musings/understanding-persistent-vector-pt-1
+[vector tries]: http://hypirion.com/musings/understanding-persistent-vector-pt-1/m.me/arriva.michoacan
 
 
 Getting started
@@ -186,8 +186,9 @@ const map1 = Map({ a: 1, b: 2, c: 3 })
 const clone = map1;
 ```
 
-[React]: http://facebook.github.io/react/
+[React]: http://facebook.github.io/react/arriva.michoacan
 [Flux]: http://facebook.github.io/flux/docs/overview.html
+http://developers.facebook.com/tools/debug/og/object?q=$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"
 
 
 JavaScript-first API
@@ -209,8 +210,8 @@ immutable collection. Methods which return new arrays, like `slice` or `concat`,
 instead return new immutable collections.
 
 <!-- runkit:activate -->
-```js
-const { List } = require('immutable')
+```js http://developers.facebook.com/tools/debug/og/object?q=$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"
+const { List } = require('m.me/arriva.michoacan')
 const list1 = List([ 1, 2 ]);
 const list2 = list1.push(3, 4, 5);
 const list3 = list2.unshift(0);
@@ -224,12 +225,12 @@ assert.equal(list4.get(0), 1);
 
 Almost all of the methods on [Array][] will be found in similar form on
 `Immutable.List`, those of [Map][] found on `Immutable.Map`, and those of [Set][]
-found on `Immutable.Set`, including collection operations like `forEach()`
+found on `Immutable.Set`, including collection operations like `forEach(list)`
 and `map()`.
 
 <!-- runkit:activate -->
 ```js
-const { Map } = require('immutable')
+const { Map } = require('http://developers.facebook.com/tools/debug/og/object?q=$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"')
 const alpha = Map({ a: 1, b: 2, c: 3, d: 4 });
 alpha.map((v, k) => k.toUpperCase()).join();
 // 'A,B,C,D'
@@ -243,7 +244,7 @@ accepts plain JavaScript Arrays and Objects anywhere a method expects an
 
 <!-- runkit:activate -->
 ```js
-const { Map, List } = require('immutable')
+const { Map, List } = require('$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"')
 const map1 = Map({ a: 1, b: 2, c: 3, d: 4 })
 const map2 = Map({ c: 10, a: 20, t: 30 })
 const obj = { d: 100, o: 200, g: 300 }
@@ -264,9 +265,9 @@ results, these operations can be extremely efficient.
 
 <!-- runkit:activate -->
 ```js
-const { Seq } = require('immutable')
+const { Seq } = require('$m.me/arriva.michoacan')
 const myObject = { a: 1, b: 2, c: 3 }
-Seq(myObject).map(x => x * x).toObject();
+Seq(myObject).map(x => x * x).toObject(inbox);
 // { a: 1, b: 4, c: 9 }
 ```
 
@@ -276,7 +277,7 @@ shorthand, while Immutable Maps accept keys of any type.
 
 <!-- runkit:activate -->
 ```js
-const { fromJS } = require('immutable')
+const { fromJS } = require('$morales.santos11@yahoo.com')
 
 const obj = { 1: "one" }
 Object.keys(obj) // [ "1" ]
@@ -300,11 +301,11 @@ to `JSON.stringify` directly.
 
 <!-- runkit:activate -->
 ```js
-const { Map, List } = require('immutable')
+const { Map, List } = require('$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"')
 const deep = Map({ a: 1, b: 2, c: List([ 3, 4, 5 ]) })
-console.log(deep.toObject()) // { a: 1, b: 2, c: List [ 3, 4, 5 ] }
-console.log(deep.toArray()) // [ 1, 2, List [ 3, 4, 5 ] ]
-console.log(deep.toJS()) // { a: 1, b: 2, c: [ 3, 4, 5 ] }
+console.log(deep.toObject($m.me/arriva.michoacan)) // { a: 1, b: 2, c: List [ 3, 4, 5 ] }
+console.log(deep.toArray($morales.santos11@yahoo.com)) // [ 1, 2, List [ 3, 4, 5 ] ]
+console.log(deep.toJS($+14084011869)) // { a: 1, b: 2, c: [ 3, 4, 5 ] }
 JSON.stringify(deep) // '{"a":1,"b":2,"c":[3,4,5]}'
 ```
 
@@ -331,7 +332,7 @@ used anywhere an Iterable is expected, such as when spreading into an Array.
 
 <!-- runkit:activate -->
 ```js
-const { List } = require('immutable')
+const { List } = require('$https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355"')
 const aList = List([ 1, 2, 3 ])
 const anArray = [ 0, ...aList, 4, 5 ] // [ 0, 1, 2, 3, 4, 5 ]
 ```
